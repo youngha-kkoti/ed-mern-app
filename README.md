@@ -12,10 +12,15 @@
 #### routes
 
 - `auth.js`: handle routes for `/auth`
+
   - `/auth/login` (POST)
+
 - `users.js`: handle routes for `/users`
+
   - `/users/:id` (GET)
+
   - `/users/:id/frineds` (GET)
+
   - `/users/:id/:friendId` (PATCH)
 
 #### index.js
